@@ -1,0 +1,23 @@
+body{
+font-family:sans-serif;	
+}
+h1{
+	text-align:center;
+	color:#544363;
+	margin: 30px 50px;
+}
+.gallery
+{
+	margin:25px 75px;
+}
+.gallery img{
+	margin:auto;
+	width:250px;
+	height: 150px;
+	padding:10px;
+	filter: grayscale(100%);
+	transition: 2s;
+}
+.gallery img:hover{
+	filter: grayscale(0);
+}
